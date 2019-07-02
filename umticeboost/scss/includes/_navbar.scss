@@ -1,0 +1,31 @@
+//navbar :
+// --- --- --- --- --- --- --- --- --- --- ---
+
+.navbar {
+  background-color: $navbarBackgroundColor;
+  border-bottom   : $navbarBorderSize solid $navbarBorderColor;
+
+  .logo img {
+    height: 22px;
+    width: auto;
+
+  }
+  .usermenu {
+    color: $whiteText;
+
+    a.dropdown-toggle {
+      font-weight: 700;
+      color: $whiteText;
+    }
+    .login a {
+      color: $pinkumtice;
+    }
+    .icon {
+      color: $blackText !important; // var textblanc / text bk
+    }
+  }
+  .dropdown-item:hover {
+    background-color: $navbarHoverColor;
+  }
+
+}
